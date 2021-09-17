@@ -1,3 +1,5 @@
+mod std;
+
 fn main() {
-    println!("Hello, world!");
+    println!("Hi {}!", std::prompt("What's your name?"));
 }
